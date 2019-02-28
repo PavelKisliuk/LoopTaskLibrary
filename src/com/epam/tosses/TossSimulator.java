@@ -8,7 +8,6 @@ public class TossSimulator {
 	private int tailsCount;
 	private int tossesCounter;
 
-
 	public static final int TOSSBOUND = 99999;
 	//-----------------------------------------------------------------------------constructors
 	public TossSimulator()
@@ -17,7 +16,6 @@ public class TossSimulator {
 		this.tailsCount = 0;
 		this.tossesCounter = 0;
 	}
-
 	//-----------------------------------------------------------------------------
 	//-----------------------------------------------------------------------------methods
 	public void startToss(int tossesNumber)
