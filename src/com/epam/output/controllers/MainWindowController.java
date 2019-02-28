@@ -1,6 +1,6 @@
 package com.epam.output.controllers;
 
-import com.epam.tosses.TossSimulator;
+import com.epam.tossing.TossSimulator;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

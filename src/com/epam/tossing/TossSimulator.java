@@ -1,4 +1,4 @@
-package com.epam.tosses;
+package com.epam.tossing;
 
 import java.security.SecureRandom;
 
