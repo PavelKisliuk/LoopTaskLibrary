@@ -25,6 +25,7 @@ public class MainWindowController {
 	@FXML
 	void initialize() {
 		this.promptTextField.textProperty().addListener((observable, oldValue, newValue) -> {
+			//------------------------------------
 			if(isEmpty(newValue)) {
 				this.startButton.setDisable(true);
 				this.promptTextField.setStyle("-fx-control-inner-background: white;");
@@ -35,8 +36,9 @@ public class MainWindowController {
 				this.startButton.setDisable(false);
 				this.promptTextField.setStyle("-fx-control-inner-background: white;");
 			}
+			//------------------------------------
 		});
-
+		//------------------------------------
 		this.startButton.setOnAction(buttonAction -> this.startButtonOnAction());
 	}
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
