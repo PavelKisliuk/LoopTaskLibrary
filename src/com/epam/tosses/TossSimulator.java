@@ -42,6 +42,6 @@ public class TossSimulator {
 	}
 
 	public int getTailsCount() {
-		return tailsCount;
+		return this.tailsCount;
 	}
 }
