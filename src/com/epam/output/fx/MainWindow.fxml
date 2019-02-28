@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.epam.output.controllers.MainWindowController">
+
+      <HBox alignment="TOP_CENTER" spacing="10.0">
+
+            <Label text="Enter number of tosses:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="promptTextField" alignment="CENTER_RIGHT">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="startButton" defaultButton="true" disable="true" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Start">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Button>
+
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" spacing="150.0">
+
+            <ImageView fitHeight="90.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+
+                  <Image url="@/com/epam/output/images/head.jpg" />
+
+            </ImageView>
+            <ImageView fitHeight="90.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+
+                  <Image url="@/com/epam/output/images/tail.jpg" />
+
+            </ImageView>
+
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Line endX="0.347004771232605" endY="0.24162673950195312" rotate="90.0" startX="-250.0" />
+      <HBox alignment="CENTER" spacing="10.0">
+
+            <TextField fx:id="headCountTextField" editable="false" nodeOrientation="RIGHT_TO_LEFT">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tailCountTextField" editable="false" nodeOrientation="RIGHT_TO_LEFT">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </TextField>
+
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>
